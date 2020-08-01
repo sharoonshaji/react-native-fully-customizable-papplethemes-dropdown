@@ -1,10 +1,7 @@
 # react-native-fully-customizable-papple-dropdown
 A fully custom react-native dropdown by "PappleThemes" where you have complete access over font size, font color, position of the dropdown, height and width of dropdown and also the overlay color.
 
-![small](https://user-images.githubusercontent.com/35957307/89101545-6a8db280-d41e-11ea-8868-ee6edf4a4413.png)
-
-![large](https://user-images.githubusercontent.com/35957307/89101548-75e0de00-d41e-11ea-836f-867bb1a2242e.png)
-
+![screenshot](https://user-images.githubusercontent.com/35957307/89101737-48952f80-d420-11ea-8416-c1ce3e490a46.jpg)
 
 
 # Usage
