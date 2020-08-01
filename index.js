@@ -20,6 +20,7 @@ class PappleDropDown extends React.Component {
         openCloseDropDown: PropTypes.func,
         buttonContainerStyle: PropTypes.StyleSheet,
         dropDownContainerStyle: PropTypes.StyleSheet,
+        overlayStyle: PropTypes.StyleSheet,
         dropDownData: PropTypes.array,
         singleCellStyle: PropTypes.StyleSheet,
         textStyle: PropTypes.StyleSheet,
@@ -54,7 +55,7 @@ class PappleDropDown extends React.Component {
 
 
     chooseDropDownModal() {
-        const { showDropDown, openCloseDropDown,
+        const { showDropDown, openCloseDropDown, overlayStyle,
             dropDownContainerStyle, dropDownData } = this.props
         return (
             <Modal
@@ -63,7 +64,7 @@ class PappleDropDown extends React.Component {
                 visible={showDropDown}
             >
                 <TouchableWithoutFeedback onPress={() => openCloseDropDown()}>
-                    <View style={styles.dDModalOverlay} />
+                    <View style={[styles.dDModalOverlay, overlayStyle]} />
                 </TouchableWithoutFeedback>
                 <View style={styles.dDModalContent}>
                     <View style={[styles.dDModalContainer, dropDownContainerStyle]}>
