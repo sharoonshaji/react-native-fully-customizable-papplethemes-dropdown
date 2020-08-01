@@ -6,7 +6,6 @@ import {
 import PropTypes from 'prop-types'
 
 const { width, height } = Dimensions.get('window')
-const Images = { dropDownArrow: require('./Images/dropDownArrow') }
 const Metrics = {
     screenWidth: width < height ? width : height,
     screenHeight: width < height ? height : width,
@@ -89,7 +88,7 @@ class PappleDropDown extends React.Component {
             <TouchableOpacity style={[styles.dDMainContainer, buttonContainerStyle]}
                 onPress={() => openCloseDropDown()}>
                 <Text style={styles.dropdownText}>{selectedValue}</Text>
-                <Image source={Images.dropDownArrow} style={styles.dropdownArrow} />
+                <Text>&#9660;</Text>
                 {this.chooseDropDownModal()}
             </TouchableOpacity>
         )

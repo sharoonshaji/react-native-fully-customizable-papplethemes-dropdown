@@ -3,7 +3,7 @@ import {
     View, Dimensions
 } from 'react-native'
 import styles from './styles'
-import PappleDropDown from 'react-native-fully-customizable-papple-dropdown'
+import PappleDropDown from 'react-native-fully-customizable-papplethemes-dropdown'
 
 const { width, height } = Dimensions.get('window')
 const Metrics = {
