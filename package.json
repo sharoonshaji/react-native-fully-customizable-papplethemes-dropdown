@@ -1,0 +1,26 @@
+{
+  "name": "react-native-fully-customizable-papple-dropdown",
+  "version": "0.0.1",
+  "description": "A fully custom react-native dropdown by \"PappleThemes\" where you have complete access over font size, font color, position of the dropdown, height and width of dropdown and also the overlay color.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "dropdown",
+    "modal-dropdown",
+    "drop",
+    "down",
+    "font-family",
+    "dropdwon",
+    "fontFamily",
+    "custom",
+    "dropdown",
+    "ios",
+    "android",
+    "animation"
+  ],
+  "author": "Papple Themes <papplethemes@gmail.com>",
+  "license": "ISC"
+}
