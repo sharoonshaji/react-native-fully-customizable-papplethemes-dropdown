@@ -92,7 +92,7 @@ class PappleDropDown extends React.Component {
             <TouchableOpacity style={[styles.dDMainContainer, buttonContainerStyle]}
                 onPress={() => openCloseDropDown()}>
                 <Text style={styles.dropdownText}>{selectedValue}</Text>
-                {(addDropDownImage) ?
+                {(addDropDownImage ===true) ?
                     <Image source={dropdownImage} style={dropdownImageStyle} /> :
                     <Text>&#9660;</Text>}
                 {this.chooseDropDownModal()}
