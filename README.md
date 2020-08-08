@@ -69,7 +69,7 @@ Prop                    | Type     | Optional |    Default      | Description
 ------------------------| -------- | -------- | --------------- | -----------
 `showDropDown`          | bool     | Yes      | false           | show/hide dropdown component.
 `selectedValue`         | string   | No       | Please select   | selectedValue has the value which we just selected.
-`dropDownData`          | array    | No       | []              | data for dropdown.
+`dropDownData`          | array    | No       | [ ]             | data for dropdown.
 `openCloseDropDown`     | function | No       |                 | control open or close dropdown.
 `onSelectItem`          | function | No       |                 | select an option from dropdown.
 `addDropDownImage`      | bool     | Yes      | false           | if given true, you can add your own dropdown arrow image.
