@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {
     View, Dimensions
 } from 'react-native'
-import styles from './styles'
 import PappleDropDown from 'react-native-fully-customizable-papplethemes-dropdown'
 
 const { width, height } = Dimensions.get('window')
@@ -50,6 +49,9 @@ class Home extends Component {
                     singleCellStyle={styles.singleCellStyle}
                     textStyle={styles.dropDownTextStyle}
                     overlayStyle={styles.overlayStyle}
+                    addDropDownImage={true}
+                    dropdownImage={require('../../Images/common/dropDownArrow.png')}
+                    dropdownImageStyle={styles.dropdownArrow}
                 />
             </View>
         );
@@ -80,7 +82,12 @@ const styles = StyleSheet.create({
     },
     overlayStyle:{
         backgroundColor: 'rgba(0,0,0,0.1)'
-    }
+    },
+    dropdownArrow: {
+        height: Metrics.screenWidth / 28,
+        width: Metrics.screenWidth / 28,
+        left: Metrics.screenWidth / 50,
+    },
 })
 
 

@@ -24,6 +24,9 @@ class PappleDropDown extends React.Component {
         singleCellStyle: PropTypes.StyleSheet,
         textStyle: PropTypes.StyleSheet,
         onSelectItem: PropTypes.func,
+        addDropDownImage: PropTypes.bool,
+        dropdownImage: PropTypes.Image,
+        dropdownImageStyle: PropTypes.StyleSheet
     }
 
 
@@ -83,12 +86,15 @@ class PappleDropDown extends React.Component {
 
 
     render() {
-        const { selectedValue, buttonContainerStyle, openCloseDropDown } = this.props
+        const { selectedValue, buttonContainerStyle, dropdownImage,
+            openCloseDropDown, addDropDownImage, dropdownImageStyle } = this.props
         return (
             <TouchableOpacity style={[styles.dDMainContainer, buttonContainerStyle]}
                 onPress={() => openCloseDropDown()}>
                 <Text style={styles.dropdownText}>{selectedValue}</Text>
-                <Text>&#9660;</Text>
+                {(addDropDownImage) ?
+                    <Image source={dropdownImage} style={dropdownImageStyle} /> :
+                    <Text>&#9660;</Text>}
                 {this.chooseDropDownModal()}
             </TouchableOpacity>
         )
