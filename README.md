@@ -74,7 +74,6 @@ Prop                    | Type     | Optional |    Default      | Description
 `onSelectItem`          | function | No       |                 | select an option from dropdown.
 `addDropDownImage`      | bool     | Yes      | false           | if given true, you can add your own dropdown arrow image
 `dropdownImage`         | function | Yes      |                 | path to dropdown image    |
-                        |          |          |                 |
 `buttonContainerStyle`  | style    | Yes      |                 | style for click area on which dropdown should appear        
 `dropDownContainerStyle`| style    | Yes      |                 | style for position, height and width of dropdown
 `singleCellStyle      ` | style    | Yes      |                 | style for dropdown single cell.
