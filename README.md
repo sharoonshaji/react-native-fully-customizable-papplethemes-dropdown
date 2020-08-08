@@ -67,19 +67,19 @@ onSelectItem(selectedItem) {
 ### Props
 Prop                    | Type     | Optional |    Default      | Description
 ------------------------| -------- | -------- | --------------- | -----------
-`showDropDown`          | bool     | Yes      | false           | show/hide dropdown component
-`selectedValue`         | string   | No       | Please select   | selectedValue has the value which we just selected
-`dropDownData`          | array    | No       | []              | data for dropdown
+`showDropDown`          | bool     | Yes      | false           | show/hide dropdown component.
+`selectedValue`         | string   | No       | Please select   | selectedValue has the value which we just selected.
+`dropDownData`          | array    | No       | []              | data for dropdown.
 `openCloseDropDown`     | function | No       |                 | control open or close dropdown.
 `onSelectItem`          | function | No       |                 | select an option from dropdown.
-`addDropDownImage`      | bool     | Yes      | false           | if given true, you can add your own dropdown arrow image
-`dropdownImage`         | function | Yes      |                 | path to dropdown image    |
-`buttonContainerStyle`  | style    | Yes      |                 | style for click area on which dropdown should appear        
-`dropDownContainerStyle`| style    | Yes      |                 | style for position, height and width of dropdown
-`singleCellStyle      ` | style    | Yes      |                 | style for dropdown single cell.
-`dropDownTextStyle      | style    | Yes      |                 | style for the text inside the dropdown container.
-`overlayStyle `         | style    | Yes      | rgba(0,0,0,0.1) | style to overlay background
-`dropdownImageStyle`    | style    | Yes      |                 | style for dropdown arrow 
+`addDropDownImage`      | bool     | Yes      | false           | if given true, you can add your own dropdown arrow image.
+`dropdownImage`         | function | Yes      |                 | path to dropdown image.    
+`buttonContainerStyle`  | style    | Yes      |                 | style for click area on which dropdown should appear.        
+`dropDownContainerStyle`| style    | Yes      |                 | style for position, height and width of dropdown.
+`singleCellStyle`       | style    | Yes      |                 | style for dropdown single cell.
+`dropDownTextStyle`     | style    | Yes      |                 | style for the text inside the dropdown container.
+`overlayStyle `         | style    | Yes      | rgba(0,0,0,0.1) | style to overlay background.
+`dropdownImageStyle`    | style    | Yes      |                 | style for dropdown arrow.
 
 
 
