@@ -114,7 +114,6 @@ const styles = StyleSheet.create({
     },
     dropdownText: {
         color: 'black',
-        fontFamily: 'Montserrat-Regular',
         fontSize: Metrics.screenWidth / 28,
     },
     dropdownArrow: {
@@ -166,7 +165,6 @@ const styles = StyleSheet.create({
     },
     textStyle: {
         color: 'black',
-        fontFamily: 'Montserrat-Regular',
         fontSize: Metrics.screenWidth / 28,
     },
 })
